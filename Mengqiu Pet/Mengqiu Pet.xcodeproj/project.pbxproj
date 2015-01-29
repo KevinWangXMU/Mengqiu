@@ -10,6 +10,12 @@
 		208E2BD61A7A0DBE002C0F52 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 208E2BD51A7A0DBE002C0F52 /* Images */; };
 		208E2BD91A7A0FA6002C0F52 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = 208E2BD71A7A0FA6002C0F52 /* Music */; };
 		208E2BDA1A7A0FA6002C0F52 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = 208E2BD81A7A0FA6002C0F52 /* Video */; };
+		208E2BF61A7A190B002C0F52 /* ASScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 208E2BE31A7A190B002C0F52 /* ASScroll.m */; };
+		208E2BF71A7A190B002C0F52 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208E2BE61A7A190B002C0F52 /* ViewPagerController.m */; };
+		208E2C011A7A1CAF002C0F52 /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208E2C001A7A1CAF002C0F52 /* SlideNavigationController.m */; };
+		208E2C041A7A1E18002C0F52 /* MQCategoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 208E2C031A7A1E18002C0F52 /* MQCategoryItem.m */; };
+		208E2C071A7A2001002C0F52 /* MQHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208E2C061A7A2001002C0F52 /* MQHomeController.m */; };
+		208E2C0A1A7A22A7002C0F52 /* MQNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208E2C091A7A22A7002C0F52 /* MQNewsViewController.m */; };
 		20C9A0421A79F99900FE1596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C9A0411A79F99900FE1596 /* main.m */; };
 		20C9A0451A79F99900FE1596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C9A0441A79F99900FE1596 /* AppDelegate.m */; };
 		20C9A0481A79F99900FE1596 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C9A0471A79F99900FE1596 /* FirstViewController.m */; };
@@ -39,6 +45,18 @@
 		208E2BD51A7A0DBE002C0F52 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		208E2BD71A7A0FA6002C0F52 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
 		208E2BD81A7A0FA6002C0F52 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
+		208E2BE21A7A190B002C0F52 /* ASScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASScroll.h; sourceTree = "<group>"; };
+		208E2BE31A7A190B002C0F52 /* ASScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASScroll.m; sourceTree = "<group>"; };
+		208E2BE51A7A190B002C0F52 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
+		208E2BE61A7A190B002C0F52 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
+		208E2BFF1A7A1CAF002C0F52 /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideNavigationController.h; path = "Mengqiu Pet/SlideNavigationController.h"; sourceTree = "<group>"; };
+		208E2C001A7A1CAF002C0F52 /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideNavigationController.m; path = "Mengqiu Pet/SlideNavigationController.m"; sourceTree = "<group>"; };
+		208E2C021A7A1E18002C0F52 /* MQCategoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQCategoryItem.h; path = "Mengqiu Pet/MQCategoryItem.h"; sourceTree = "<group>"; };
+		208E2C031A7A1E18002C0F52 /* MQCategoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MQCategoryItem.m; path = "Mengqiu Pet/MQCategoryItem.m"; sourceTree = "<group>"; };
+		208E2C051A7A2001002C0F52 /* MQHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQHomeController.h; path = "Mengqiu Pet/MQHomeController.h"; sourceTree = "<group>"; };
+		208E2C061A7A2001002C0F52 /* MQHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MQHomeController.m; path = "Mengqiu Pet/MQHomeController.m"; sourceTree = "<group>"; };
+		208E2C081A7A22A7002C0F52 /* MQNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQNewsViewController.h; path = "Mengqiu Pet/MQNewsViewController.h"; sourceTree = "<group>"; };
+		208E2C091A7A22A7002C0F52 /* MQNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MQNewsViewController.m; path = "Mengqiu Pet/MQNewsViewController.m"; sourceTree = "<group>"; };
 		20C9A03C1A79F99900FE1596 /* Mengqiu Pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mengqiu Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C9A0401A79F99900FE1596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C9A0411A79F99900FE1596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,9 +101,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		208E2BE01A7A190B002C0F52 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				208E2BE11A7A190B002C0F52 /* ASScroll */,
+				208E2BE41A7A190B002C0F52 /* ICViewPager */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		208E2BE11A7A190B002C0F52 /* ASScroll */ = {
+			isa = PBXGroup;
+			children = (
+				208E2BE21A7A190B002C0F52 /* ASScroll.h */,
+				208E2BE31A7A190B002C0F52 /* ASScroll.m */,
+			);
+			path = ASScroll;
+			sourceTree = "<group>";
+		};
+		208E2BE41A7A190B002C0F52 /* ICViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				208E2BE51A7A190B002C0F52 /* ViewPagerController.h */,
+				208E2BE61A7A190B002C0F52 /* ViewPagerController.m */,
+			);
+			path = ICViewPager;
+			sourceTree = "<group>";
+		};
+		208E2BFE1A7A1C21002C0F52 /* SlideNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				208E2BFF1A7A1CAF002C0F52 /* SlideNavigationController.h */,
+				208E2C001A7A1CAF002C0F52 /* SlideNavigationController.m */,
+			);
+			name = SlideNavigation;
+			sourceTree = "<group>";
+		};
 		20C9A0331A79F99900FE1596 = {
 			isa = PBXGroup;
 			children = (
+				208E2BE01A7A190B002C0F52 /* 3rd */,
 				20C9A03E1A79F99900FE1596 /* Mengqiu Pet */,
 				20C9A05B1A79F99900FE1596 /* Mengqiu PetTests */,
 				20C9A03D1A79F99900FE1596 /* Products */,
@@ -176,6 +231,8 @@
 		20C9A06B1A79FFAB00FE1596 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				208E2C021A7A1E18002C0F52 /* MQCategoryItem.h */,
+				208E2C031A7A1E18002C0F52 /* MQCategoryItem.m */,
 			);
 			name = Views;
 			path = ..;
@@ -184,12 +241,17 @@
 		20C9A06C1A79FFB400FE1596 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				208E2BFE1A7A1C21002C0F52 /* SlideNavigation */,
 				20C9A0461A79F99900FE1596 /* FirstViewController.h */,
 				20C9A0471A79F99900FE1596 /* FirstViewController.m */,
 				20C9A0491A79F99900FE1596 /* SecondViewController.h */,
 				20C9A04A1A79F99900FE1596 /* SecondViewController.m */,
 				20C9A0781A7A016000FE1596 /* MQTabBarControllerViewController.h */,
 				20C9A0791A7A016000FE1596 /* MQTabBarControllerViewController.m */,
+				208E2C051A7A2001002C0F52 /* MQHomeController.h */,
+				208E2C061A7A2001002C0F52 /* MQHomeController.m */,
+				208E2C081A7A22A7002C0F52 /* MQNewsViewController.h */,
+				208E2C091A7A22A7002C0F52 /* MQNewsViewController.m */,
 			);
 			name = Controllers;
 			path = ..;
@@ -318,10 +380,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208E2C0A1A7A22A7002C0F52 /* MQNewsViewController.m in Sources */,
+				208E2BF61A7A190B002C0F52 /* ASScroll.m in Sources */,
 				20C9A04B1A79F99900FE1596 /* SecondViewController.m in Sources */,
+				208E2C041A7A1E18002C0F52 /* MQCategoryItem.m in Sources */,
 				20C9A0451A79F99900FE1596 /* AppDelegate.m in Sources */,
+				208E2C071A7A2001002C0F52 /* MQHomeController.m in Sources */,
 				20C9A0481A79F99900FE1596 /* FirstViewController.m in Sources */,
 				20C9A07A1A7A016000FE1596 /* MQTabBarControllerViewController.m in Sources */,
+				208E2C011A7A1CAF002C0F52 /* SlideNavigationController.m in Sources */,
+				208E2BF71A7A190B002C0F52 /* ViewPagerController.m in Sources */,
 				20C9A0421A79F99900FE1596 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
