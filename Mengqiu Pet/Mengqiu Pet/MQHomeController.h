@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "ViewPagerController.h"
-#import "SlideNavigationController.h"
 
-@interface MQHomeController : ViewPagerController <SlideNavigationControllerDelegate>
+@interface MQHomeController : ViewPagerController 
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MQCategoryItem.h"
 
 @interface MQNewsViewController : UITableViewController
 
