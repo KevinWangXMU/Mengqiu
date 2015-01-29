@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208E2BD61A7A0DBE002C0F52 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 208E2BD51A7A0DBE002C0F52 /* Images */; };
+		208E2BD91A7A0FA6002C0F52 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = 208E2BD71A7A0FA6002C0F52 /* Music */; };
+		208E2BDA1A7A0FA6002C0F52 /* Video in Resources */ = {isa = PBXBuildFile; fileRef = 208E2BD81A7A0FA6002C0F52 /* Video */; };
 		20C9A0421A79F99900FE1596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C9A0411A79F99900FE1596 /* main.m */; };
 		20C9A0451A79F99900FE1596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C9A0441A79F99900FE1596 /* AppDelegate.m */; };
 		20C9A0481A79F99900FE1596 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C9A0471A79F99900FE1596 /* FirstViewController.m */; };
@@ -15,6 +18,11 @@
 		20C9A0501A79F99900FE1596 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C9A04F1A79F99900FE1596 /* Images.xcassets */; };
 		20C9A0531A79F99900FE1596 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C9A0511A79F99900FE1596 /* LaunchScreen.xib */; };
 		20C9A05F1A79F99900FE1596 /* Mengqiu_PetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C9A05E1A79F99900FE1596 /* Mengqiu_PetTests.m */; };
+		20C9A0731A7A00D100FE1596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9A0721A7A00D100FE1596 /* Foundation.framework */; };
+		20C9A0751A7A00E100FE1596 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9A0741A7A00E100FE1596 /* UIKit.framework */; };
+		20C9A0771A7A00E800FE1596 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C9A0761A7A00E800FE1596 /* CoreGraphics.framework */; };
+		20C9A07A1A7A016000FE1596 /* MQTabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C9A0791A7A016000FE1596 /* MQTabBarControllerViewController.m */; };
+		20C9A07C1A7A02FD00FE1596 /* launchImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 20C9A07B1A7A02FD00FE1596 /* launchImage.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +36,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		208E2BD51A7A0DBE002C0F52 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		208E2BD71A7A0FA6002C0F52 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		208E2BD81A7A0FA6002C0F52 /* Video */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Video; sourceTree = "<group>"; };
 		20C9A03C1A79F99900FE1596 /* Mengqiu Pet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mengqiu Pet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C9A0401A79F99900FE1596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C9A0411A79F99900FE1596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20C9A0431A79F99900FE1596 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20C9A0441A79F99900FE1596 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20C9A0461A79F99900FE1596 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		20C9A0471A79F99900FE1596 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		20C9A0491A79F99900FE1596 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		20C9A04A1A79F99900FE1596 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		20C9A0461A79F99900FE1596 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = "Mengqiu Pet/FirstViewController.h"; sourceTree = "<group>"; };
+		20C9A0471A79F99900FE1596 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = "Mengqiu Pet/FirstViewController.m"; sourceTree = "<group>"; };
+		20C9A0491A79F99900FE1596 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = "Mengqiu Pet/SecondViewController.h"; sourceTree = "<group>"; };
+		20C9A04A1A79F99900FE1596 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = "Mengqiu Pet/SecondViewController.m"; sourceTree = "<group>"; };
 		20C9A04D1A79F99900FE1596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20C9A04F1A79F99900FE1596 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20C9A0521A79F99900FE1596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		20C9A0581A79F99900FE1596 /* Mengqiu PetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mengqiu PetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C9A05D1A79F99900FE1596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20C9A05E1A79F99900FE1596 /* Mengqiu_PetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mengqiu_PetTests.m; sourceTree = "<group>"; };
+		20C9A0721A7A00D100FE1596 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		20C9A0741A7A00E100FE1596 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20C9A0761A7A00E800FE1596 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20C9A0781A7A016000FE1596 /* MQTabBarControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MQTabBarControllerViewController.h; path = "Mengqiu Pet/MQTabBarControllerViewController.h"; sourceTree = "<group>"; };
+		20C9A0791A7A016000FE1596 /* MQTabBarControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MQTabBarControllerViewController.m; path = "Mengqiu Pet/MQTabBarControllerViewController.m"; sourceTree = "<group>"; };
+		20C9A07B1A7A02FD00FE1596 /* launchImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = launchImage.jpeg; path = "../../../../../../Downloads/MQ-c4f6d64fb4d3694edae350d6c0f2bf4a4a4f63f3/Mengqiu Pet/Mengqiu Pet/Images.xcassets/launchImage.imageset/launchImage.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C9A0771A7A00E800FE1596 /* CoreGraphics.framework in Frameworks */,
+				20C9A0751A7A00E100FE1596 /* UIKit.framework in Frameworks */,
+				20C9A0731A7A00D100FE1596 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +89,7 @@
 				20C9A03E1A79F99900FE1596 /* Mengqiu Pet */,
 				20C9A05B1A79F99900FE1596 /* Mengqiu PetTests */,
 				20C9A03D1A79F99900FE1596 /* Products */,
+				20C9A0711A7A00B700FE1596 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,15 +105,14 @@
 		20C9A03E1A79F99900FE1596 /* Mengqiu Pet */ = {
 			isa = PBXGroup;
 			children = (
-				20C9A0431A79F99900FE1596 /* AppDelegate.h */,
-				20C9A0441A79F99900FE1596 /* AppDelegate.m */,
-				20C9A0461A79F99900FE1596 /* FirstViewController.h */,
-				20C9A0471A79F99900FE1596 /* FirstViewController.m */,
-				20C9A0491A79F99900FE1596 /* SecondViewController.h */,
-				20C9A04A1A79F99900FE1596 /* SecondViewController.m */,
-				20C9A04C1A79F99900FE1596 /* Main.storyboard */,
+				20C9A06D1A79FFFB00FE1596 /* Others */,
+				20C9A06C1A79FFB400FE1596 /* Controllers */,
+				20C9A06B1A79FFAB00FE1596 /* Views */,
+				20C9A06A1A79FF7400FE1596 /* Models */,
+				20C9A0691A79FF4F00FE1596 /* Librarys */,
+				20C9A0681A79FF2100FE1596 /* XIBS */,
 				20C9A04F1A79F99900FE1596 /* Images.xcassets */,
-				20C9A0511A79F99900FE1596 /* LaunchScreen.xib */,
+				20C9A07B1A7A02FD00FE1596 /* launchImage.jpeg */,
 				20C9A03F1A79F99900FE1596 /* Supporting Files */,
 			);
 			path = "Mengqiu Pet";
@@ -101,6 +121,10 @@
 		20C9A03F1A79F99900FE1596 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				208E2BD71A7A0FA6002C0F52 /* Music */,
+				208E2BD81A7A0FA6002C0F52 /* Video */,
+				208E2BD51A7A0DBE002C0F52 /* Images */,
+				20C9A04C1A79F99900FE1596 /* Main.storyboard */,
 				20C9A0401A79F99900FE1596 /* Info.plist */,
 				20C9A0411A79F99900FE1596 /* main.m */,
 			);
@@ -122,6 +146,72 @@
 				20C9A05D1A79F99900FE1596 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20C9A0681A79FF2100FE1596 /* XIBS */ = {
+			isa = PBXGroup;
+			children = (
+				20C9A0511A79F99900FE1596 /* LaunchScreen.xib */,
+			);
+			name = XIBS;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		20C9A0691A79FF4F00FE1596 /* Librarys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Librarys;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		20C9A06A1A79FF7400FE1596 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		20C9A06B1A79FFAB00FE1596 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		20C9A06C1A79FFB400FE1596 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20C9A0461A79F99900FE1596 /* FirstViewController.h */,
+				20C9A0471A79F99900FE1596 /* FirstViewController.m */,
+				20C9A0491A79F99900FE1596 /* SecondViewController.h */,
+				20C9A04A1A79F99900FE1596 /* SecondViewController.m */,
+				20C9A0781A7A016000FE1596 /* MQTabBarControllerViewController.h */,
+				20C9A0791A7A016000FE1596 /* MQTabBarControllerViewController.m */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		20C9A06D1A79FFFB00FE1596 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				20C9A0431A79F99900FE1596 /* AppDelegate.h */,
+				20C9A0441A79F99900FE1596 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		20C9A0711A7A00B700FE1596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20C9A0761A7A00E800FE1596 /* CoreGraphics.framework */,
+				20C9A0741A7A00E100FE1596 /* UIKit.framework */,
+				20C9A0721A7A00D100FE1596 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +294,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208E2BD91A7A0FA6002C0F52 /* Music in Resources */,
+				208E2BD61A7A0DBE002C0F52 /* Images in Resources */,
 				20C9A04E1A79F99900FE1596 /* Main.storyboard in Resources */,
 				20C9A0531A79F99900FE1596 /* LaunchScreen.xib in Resources */,
+				20C9A07C1A7A02FD00FE1596 /* launchImage.jpeg in Resources */,
 				20C9A0501A79F99900FE1596 /* Images.xcassets in Resources */,
+				208E2BDA1A7A0FA6002C0F52 /* Video in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +321,7 @@
 				20C9A04B1A79F99900FE1596 /* SecondViewController.m in Sources */,
 				20C9A0451A79F99900FE1596 /* AppDelegate.m in Sources */,
 				20C9A0481A79F99900FE1596 /* FirstViewController.m in Sources */,
+				20C9A07A1A7A016000FE1596 /* MQTabBarControllerViewController.m in Sources */,
 				20C9A0421A79F99900FE1596 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +359,7 @@
 				20C9A0521A79F99900FE1596 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = "Mengqiu Pet";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,6 +514,7 @@
 				20C9A0641A79F99900FE1596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C9A0651A79F99900FE1596 /* Build configuration list for PBXNativeTarget "Mengqiu PetTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +523,7 @@
 				20C9A0671A79F99900FE1596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
